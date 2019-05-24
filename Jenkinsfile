@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "node test.py"
+                sh "node test.js"
             }
         }
         stage('Test') {
